@@ -272,6 +272,15 @@ footer {
         padding-left: 0;
     }
 
+    footer h1 {
+        padding-left: 0;
+        padding-top: 20px;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
     
     
 
