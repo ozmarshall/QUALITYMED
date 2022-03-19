@@ -212,14 +212,32 @@ li {
 main {
   background: #fff;
   flex-grow: 1;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
 }
 
-main h2 {
-  color: #000;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  text-align: center;
+main section {
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
+main section h2{
+  font-size: 30px;
+  color: #9c9c9c;
+}
+
+main section p{
+  font-size: 18px;
+  color: #9c9c9c;
+}
+
+
+
+
+
 
 
 /*footer*/
