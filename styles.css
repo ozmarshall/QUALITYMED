@@ -370,9 +370,19 @@ footer {
 /*MOBILE XMALL < 380X*/ 
 @media (max-width: 380px) {
   
-  header {
-    background: rgb(144, 236, 159);
+  header ul {
+    display: inline;
   }
+
+  header ul a {
+    
+    padding-left: 0;
+    padding-right: 0;
+    
+  
+  }
+
+
 }
 
 /* #70ebff  */
