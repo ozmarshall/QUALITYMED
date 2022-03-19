@@ -375,11 +375,13 @@ footer {
   }
 
   header ul a {
-    
     padding-left: 0;
     padding-right: 0;
-    
-  
+  }
+
+  header li{
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
 
 
