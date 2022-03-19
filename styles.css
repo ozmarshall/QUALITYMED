@@ -214,6 +214,11 @@ main {
   flex-grow: 1;
 }
 
+main h2 {
+  color: #000;
+}
+
+
 /*footer*/
 footer {
   background: #000;
