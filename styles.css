@@ -129,6 +129,9 @@ table {
 }
 
 /*globales*/
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: arial;
@@ -174,6 +177,8 @@ header {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  /*position: fixed;*/
+
 }
 
 .QUALITYMED_consultores {
@@ -222,6 +227,7 @@ main {
 main section {
   padding-top: 30px;
   padding-bottom: 30px;
+  /*scroll-margin-top: 100px;*/
 }
 
 main section h2{
