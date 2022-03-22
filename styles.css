@@ -582,7 +582,6 @@ footer {
     width: 100%;
   }
 
-
   .servicios {
     width: 100%;
     margin-left: auto;
@@ -609,8 +608,6 @@ footer {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-
-
 }
 
 /*MOBILE SMALL < 520X*/
@@ -628,6 +625,16 @@ footer {
 
   .nosotros section {
     display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+  }
+
+  .nosotros div {
+    margin-top: 20px;
+    margin: 20px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
