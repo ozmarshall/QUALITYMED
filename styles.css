@@ -168,6 +168,8 @@ h3 {
   padding-bottom: 10px;
 }
 
+
+
 /*sticky footer*/
 .wrap {
   display: flex;
@@ -282,6 +284,7 @@ main section p {
   border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 15px 15px 15px #000;
 }
 
 /*main-servicios*/
@@ -300,6 +303,8 @@ main section p {
 .servicios_linea div {
   border: 1px solid #9c9c9c;
   border-radius: 20px;
+  box-shadow: 15px 15px 15px #000;
+  
 }
 
 .servicios_linea h2 {
@@ -333,6 +338,7 @@ form {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  
 }
 textarea {
   grid-column: 1/3;
@@ -347,6 +353,8 @@ textarea {
   text-align: center;
   resize: none;
   font-size: 18px;
+  box-shadow: 15px 15px 15px #000;
+  
 }
 
 input {
@@ -354,6 +362,8 @@ input {
   height: 40px;
   border: 2px solid #9c9c9c;
   font-size: 16px;
+  box-shadow: 15px 15px 15px #000;
+  
 }
 
 .button {
@@ -369,6 +379,7 @@ input {
   transition: 0.3s;
   text-align: center;
   font-size: 18px;
+  box-shadow: 10px 10px 10px 10px #0000;
 }
 
 .button span {
