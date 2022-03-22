@@ -168,6 +168,10 @@ h3 {
   padding-bottom: 10px;
 }
 
+img {
+  border-radius: 40px;
+}
+
 
 
 /*sticky footer*/
@@ -248,16 +252,21 @@ main section p {
 
 /*main-inicios*/
 
+.inicio h2 {
+  padding-bottom: 20px;
+}
+
 .slide_X {
   width: 80%;
   overflow: hidden;
   margin: auto;
   /*border: 5px solid red;*/
+  border-radius: 20px;
 }
 
 .slide_X ul {
   width: 600%;
-  animation: slider 18s infinite alternate;
+  animation: slider 24s infinite alternate;
   animation-timing-function: linear;
 }
 
@@ -285,6 +294,11 @@ main section p {
   margin-left: auto;
   margin-right: auto;
   box-shadow: 15px 15px 15px #000;
+}
+
+.nosotros p {
+  line-height: 30px;
+  padding-bottom: 30px;
 }
 
 /*main-servicios*/
