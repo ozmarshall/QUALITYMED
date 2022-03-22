@@ -521,10 +521,19 @@ footer {
 
   }
 
+  .servicios {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
 
-
-
-
+  .servicios_linea div {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
 
 
 
@@ -549,6 +558,14 @@ footer {
     
   }
 
+  .servicios_linea h2 {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
   footer {
     display: inline;
   }
@@ -564,6 +581,10 @@ footer {
   footer .QUALITYMED_consultores h1{
     padding-bottom: 30px;
   }
+
+  
+
+
   
 }
 
@@ -583,6 +604,13 @@ footer {
   header li{
     padding-bottom: 10px;
     padding-top: 10px;
+  }
+
+  .servicios_linea h2 {
+    font-size: 25px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 
