@@ -301,6 +301,16 @@ main section p {
   padding-bottom: 30px;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+
+
 /*main-servicios*/
 .servicios {
   width: 80%;
