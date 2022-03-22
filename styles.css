@@ -162,6 +162,12 @@ hr {
   width: 100%;
 }
 
+h3 {
+  color: #9c9c9c;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 /*sticky footer*/
 .wrap {
   display: flex;
@@ -178,7 +184,6 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
   /*position: fixed;*/
-
 }
 
 .QUALITYMED_consultores {
@@ -221,7 +226,6 @@ main {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
 main section {
@@ -230,37 +234,72 @@ main section {
   /*scroll-margin-top: 100px;*/
 }
 
-main section h2{
+main section h2 {
   font-size: 30px;
   color: #9c9c9c;
 }
 
-main section p{
+main section p {
   font-size: 18px;
   color: #9c9c9c;
 }
 
+/*main-inicios*/
 
+.slide_X {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  /*border: 5px solid red;*/
+}
+
+.slide_X ul {
+  width: 600%;
+  animation: slider 18s infinite alternate;
+  animation-timing-function: linear;
+}
+
+.slide_X li {
+  width: 100%;
+}
+
+.slide_X img {
+  width: 100%;
+}
+
+/*main-nosotros*/
+.nosotros section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nosotros div {
+  border: 1px solid #9c9c9c;
+  border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /*main-servicios*/
 .servicios {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  
 }
 
-.servicios_linea  {
+.servicios_linea {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  
 }
 
 .servicios_linea div {
   border: 1px solid #9c9c9c;
   border-radius: 20px;
-  
 }
 
 .servicios_linea h2 {
@@ -273,8 +312,6 @@ main section p{
   color: #9c9c9c;
   line-height: 30px;
   padding-bottom: 30px;
-  
-  
 }
 
 .servicios_linea li {
@@ -282,10 +319,7 @@ main section p{
   color: #9c9c9c;
   line-height: 30px;
   text-align: left;
-  
 }
-
-
 
 /*main-contactanos*/
 
@@ -314,13 +348,12 @@ textarea {
   resize: none;
   font-size: 18px;
 }
- 
+
 input {
   border-radius: 10px;
   height: 40px;
   border: 2px solid #9c9c9c;
   font-size: 16px;
-  
 }
 
 .button {
@@ -333,13 +366,12 @@ input {
   text-transform: uppercase;
   cursor: pointer;
   overflow: hidden;
-  transition: .3s;
+  transition: 0.3s;
   text-align: center;
   font-size: 18px;
-	
 }
 
-.button span{
+.button span {
   position: absolute;
   width: 100%;
   height: 100px;
@@ -347,7 +379,6 @@ input {
   background: #1512c486;
   top: -50%;
   left: -100%;
-	
 }
 
 .button:hover span {
@@ -359,11 +390,6 @@ input {
   background: rgb(20, 220, 255);
   box-shadow: 0 5px 5px rgb(101, 101, 221);
 }
-
-
-
-
-
 
 /*footer*/
 footer {
@@ -382,6 +408,50 @@ footer {
 
 .columna_datos p {
   font-size: 18px;
+}
+
+@keyframes slider {
+  0% {
+    margin-left: 0;
+  }
+  14% {
+    margin-left: 0;
+  }
+
+  16.6% {
+    margin-left: -100%;
+  }
+  30% {
+    margin-left: -100%;
+  }
+
+  33.2% {
+    margin-left: -200%;
+  }
+  47% {
+    margin-left: -200%;
+  }
+
+  49.8% {
+    margin-left: -300%;
+  }
+  64% {
+    margin-left: -300%;
+  }
+
+  66.4% {
+    margin-left: -400%;
+  }
+  80% {
+    margin-left: -400%;
+  }
+
+  83% {
+    margin-left: -500%;
+  }
+  100% {
+    margin-left: -500%;
+  }
 }
 
 /*RESPONSIVE*/
@@ -453,23 +523,23 @@ footer {
     padding-right: 20px;
   }
 
-  .servicios_linea  {
+  .nosotros section {
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .servicios_linea {
     display: inline;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .servicios_linea div {
     margin-top: 20px;
     margin: 20px;
-    
   }
-
 }
-
-
-
 
 /*MOBILE LARGE < 820X */
 @media (max-width: 820px) {
@@ -504,48 +574,47 @@ footer {
   }
   */
 
-  form {
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  input {
+  .slide_X {
     width: 100%;
-    margin-top: 20px;
-    
   }
-  textarea {
-    margin-top: 20px;
-    margin-bottom: 20px;
 
+  .nosotros section {
+    width: 100%;
   }
+
 
   .servicios {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    
   }
 
   .servicios_linea div {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-    
   }
 
+  form {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-
-
-
+  input {
+    width: 100%;
+    margin-top: 20px;
+  }
+  textarea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
 
 
 }
 
-/*MOBILE SMALL < 520X*/ 
+/*MOBILE SMALL < 520X*/
 @media (max-width: 520px) {
-
   header .logo {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -555,7 +624,12 @@ footer {
     padding-left: 0;
     padding-top: 30px;
     padding-bottom: 30px;
-    
+  }
+
+  .nosotros section {
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .servicios_linea h2 {
@@ -563,8 +637,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-
-
 
   footer {
     display: inline;
@@ -578,20 +650,13 @@ footer {
   .columna_datos {
     padding-right: 0;
   }
-  footer .QUALITYMED_consultores h1{
+  footer .QUALITYMED_consultores h1 {
     padding-bottom: 30px;
   }
-
-  
-
-
-  
 }
 
-
-/*MOBILE XMALL < 380X*/ 
+/*MOBILE XMALL < 380X*/
 @media (max-width: 380px) {
-  
   header ul {
     display: inline;
   }
@@ -601,7 +666,7 @@ footer {
     padding-right: 0;
   }
 
-  header li{
+  header li {
     padding-bottom: 10px;
     padding-top: 10px;
   }
@@ -612,8 +677,6 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
-
-
 }
 
 /* #70ebff  */
