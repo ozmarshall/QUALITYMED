@@ -163,7 +163,7 @@ hr {
 }
 
 h3 {
-  color: #9c9c9c;
+  color: rgb(32, 35, 36);
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -238,7 +238,7 @@ main section {
 
 main section h2 {
   font-size: 30px;
-  color: #9c9c9c;
+  color: rgb(32, 35, 36);
 }
 
 main section p {
@@ -368,7 +368,7 @@ input {
 
 .button {
   color: #fff;
-  background: rgb(47, 213, 255);
+  background: rgb(32, 35, 36);
   height: 50px;
   width: 150px;
   border-radius: 10px;
@@ -380,6 +380,7 @@ input {
   text-align: center;
   font-size: 18px;
   box-shadow: 10px 10px 10px 10px #0000;
+  margin-top: 30px;
 }
 
 .button span {
