@@ -220,9 +220,21 @@ li {
   font-size: 13px;
 }
 
+/*extras*/
+
 .logo {
   padding-left: 100px;
 }
+
+.translate_X {
+  transition: all 400ms ease;
+}
+
+.translate_X:hover {
+  transform: translateX(-3%);
+}
+
+
 
 /*main*/
 main {
