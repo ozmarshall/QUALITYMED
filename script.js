@@ -1,15 +1,10 @@
-let hideText_btn = document.getElementById('hideText_btn');
-let hideText = document.getElementById('hideText');
-
-hideText_btn.addEventListener('click', toggleText);
-
-function toggleText() {
-    hideText.clasList.toggle('show');
-    
-    if(hideText.classList.contains('show')){
-       hideText_btn.innerHTML = 'Read less';
+function vermas(id) {
+    if (id == "mas") {
+      document.getElementById("desplegar").style.display = "block";
+      document.getElementById("mas").style.display = "none";
+    } else {
+      document.getElementById("desplegar").style.display = "none";
+      document.getElementById("mas").style.display = "inline";
     }
-    else {
-        hideText_btn.innerHTML = 'Read More';
-    }
-}
+  }
+  
