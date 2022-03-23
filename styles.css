@@ -234,6 +234,13 @@ li {
   transform: translateX(-3%);
 }
 
+.volver_arriba {
+  border: none;
+  background: #fff;
+  display: flex;
+  
+}
+
 
 
 /*main*/
