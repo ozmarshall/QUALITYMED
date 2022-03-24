@@ -250,7 +250,6 @@ li {
 }
 
 
-
 /*main*/
 main {
   background: #fff;
@@ -351,10 +350,7 @@ main section p {
   
 }
 
-
-
 .conten_img figure .capa h3 {
-  
   color: #fff;
   font-weight: 400;
   margin-bottom: 120px;
@@ -369,27 +365,8 @@ main section p {
   line-height: 1.5;
   width: 100%;
   max-width: 220px;
- 
   margin: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -406,7 +383,7 @@ main section p {
 }
 
 .nosotros div {
-  border: 1px solid #9c9c9c;
+  /*border: 1px solid #9c9c9c;*/
   border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -433,7 +410,7 @@ main section p {
 }
 
 .servicios_linea div {
-  border: 1px solid #9c9c9c;
+  /*border: 1px solid #9c9c9c;*/
   border-radius: 20px;
   box-shadow: 15px 15px 15px #000;
   
@@ -478,7 +455,7 @@ textarea {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid #9c9c9c;
+  /*border: 2px solid #9c9c9c;*/
   border-radius: 10px;
   color: #9c9c9c;
   align-items: center;
@@ -492,7 +469,7 @@ textarea {
 input {
   border-radius: 10px;
   height: 40px;
-  border: 2px solid #9c9c9c;
+  /*border: 2px solid #9c9c9c;*/
   font-size: 16px;
   box-shadow: 15px 15px 15px #000;
   
