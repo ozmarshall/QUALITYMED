@@ -305,6 +305,96 @@ main section p {
   width: 100%;
 }
 
+/*revolver*/
+
+.conten_img figure {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  /*border-radius: 20px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.50);
+  cursor: pointer;*/
+
+}
+.conten_img figure img {
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease-out;
+}
+
+.conten_img figure .capa{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(11, 103, 123, 0.6);
+  transition: all 500ms ease-out;
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.conten_img figure:hover > .capa  {
+  opacity: 1;
+  visibility: visible;
+}
+
+.conten_img figure:hover > .capa h3 {
+  margin-top: 70px;
+  margin-bottom: 15px;
+  
+}
+
+.conten_img figure:hover > img {
+  transform: scale(1.3);
+  
+}
+
+
+
+.conten_img figure .capa h3 {
+  
+  color: #fff;
+  font-weight: 400;
+  margin-bottom: 120px;
+  transition: all 500ms ease-out;
+  margin-top: 30px;
+}
+
+
+.conten_img figure .capa p {
+  color: #fff;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 100%;
+  max-width: 220px;
+ 
+  margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*main-nosotros*/
 .nosotros section {
   display: grid;
