@@ -408,6 +408,14 @@ input {
   
 }
 
+.contactanos form:hover  {
+  transform: scale(1.01);
+  
+}
+
+
+
+
 .button {
   color: #fff;
   background: rgb(32, 35, 36);
